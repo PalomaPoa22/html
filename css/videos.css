@@ -1,0 +1,124 @@
+*{
+ border: none;
+  box-sizing: border-box;
+ }
+body {
+  background: #E9DAC1;
+  max-width: 1000px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding-top: 20px;
+  color: #F7ECDE;
+}
+h2 {
+  font-size: 1.6rem;
+  color: goldenrod;
+  padding: 30px 20px;
+}
+h1,
+h2 {
+  font-weight: 600;
+  line-height: 125%;
+  letter-spacing: -1px;
+  text-align: center;
+}
+header {
+  margin: 0 auto;
+  background:#54BAB9;
+  padding: 20px 0;
+  border-radius: 5px;
+}
+
+.btn-button {
+  text-align: center;
+  
+}
+.btn-button a{
+  text-decoration: none;
+  color: #111;
+}
+.btn-button .img-button{
+  height: 25px;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+}
+.col-5.text-center {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+.video .curso-iframe {
+  width: 550px;
+  height: 315px;
+}
+footer {
+  text-align: center;
+  font-size: 1.2rem;
+  background: #111;
+  color: #fff;
+  height: 40px;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+@media (max-width: 475px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  col-5.text-center {
+  margin-right:auto ;
+    padding: 0 25px;
+}
+
+  .video-curso .video-iframe {
+    width: 240px;
+    height: 200px;
+    margin-left: -40px;
+    }
+}
+@media (max-width: 598px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+  .video-curso .video-iframe {
+    width: 350px;
+    height: 300px;
+    margin-left: -40px;
+    }
+
+}
+@media (max-width: 770px) {
+  h1 {
+    font-size: 1.7rem;
+  }
+  .video-curso .video-iframe {
+    width: 350px;
+    height: 315px;
+    margin-left: -40px;
+    }
+  
+}
+@media (max-width: 991px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  
+
+  @media (max-width:1110) {
+    .video-curso .video-iframe {
+      width: 550px;
+      height: 315px;
+      margin-left: -40px;
+      }
+    
+  }
+}
